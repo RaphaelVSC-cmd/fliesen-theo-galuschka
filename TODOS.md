@@ -18,14 +18,15 @@
 - [x] Schritt 0: Tier-Klassifikation (TIER 1 - GOLD)
 - [x] Phase 0A: Fingerprint-Gate / Anti-Klischee-Manifest (FINGERPRINTS.md)
 - [x] Phase 0B: Deep Discovery (Zero-Hallucination - docs/lead-data.md)
-- [ ] Phase 1: Strategie + Motion-Budget (Mind. 5 Primitiven - docs/prd.md)
-- [ ] Phase 2: Struktur + Analytics + vercel.json + PWA + Assets
-- [ ] Phase 3: Code (HTML + CSS + app.js + Fallback + Tageszeit)
-- [ ] Checkpoint nach Phase 3 (9 Fragen beantwortet)
-- [ ] Phase 4: Selbst-Audit (docs/review.md)
-- [ ] Phase 5: QA-Test 375/768/1024/1440px
-- [ ] Phase 5.5: 8-Säulen-Audit (website-audit-pro -> docs/audit-report.md)
-- [ ] Phase 6: Git Commit & GitHub Deployment
-- [ ] Phase 7: Dokumentation (README.md + docs/ANLEITUNG.md)
-- [ ] Phase 8: Notion CRM + Saxer-Skript + Multi-Touch
-- [ ] Phase 9: Meta-Reflexion (Tier 1)
+- [x] Phase 1: Strategie + Motion-Budget (Mind. 5 Primitiven - docs/prd.md)
+- [x] Phase 2: Struktur + Analytics + vercel.json + PWA + Assets
+- [x] Phase 3: Code (HTML + CSS + app.js + Fallback + Tageszeit)
+- [x] Checkpoint nach Phase 3 (9 Fragen beantwortet)
+- [x] Phase 4: Selbst-Audit (docs/review.md)
+- [x] Phase 5: QA-Test 375/768/1024/1440px (Automated QA 43/43 Bestanden)
+- [x] Phase 5.5: 8-Säulen-Audit (website-audit-pro -> docs/audit-report.md: 100/100 Grün)
+- [x] Phase 6: Git Commit & GitHub Deployment (Repository: RaphaelVSC-cmd/fliesen-theo-galuschka)
+- [x] Phase 7: Dokumentation (README.md + docs/ANLEITUNG.md)
+- [x] Phase 8: Notion CRM + Saxer-Skript + Multi-Touch (Master-CRM & Pipeline synchronisiert)
+- [x] Phase 9: Meta-Reflexion (Tier 1 Gold-Standard)
+

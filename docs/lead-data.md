@@ -63,3 +63,31 @@ Diese Bilder beweisen, dass Theo Galuschka das Projekt **vom Rohbau / Trockenbau
 - [ ] [MANUELL PRUEFEN: Handwerkskammer-Eintragsnummer - Quelle: hwk-muenchen.de]
 - [ ] SETUP: Formspree Form-ID in index.html eintragen
 - [ ] SETUP: Plausible.io Domain oder Clarity Projekt-ID eintragen
+
+---
+
+## Phase 8: Sales & Outreach Engine
+
+### 1. Der Akquise-Hebel (Killer-Argument)
+Auf Google Maps führt die verlinkte Website `https://fliesenleger.io/ingolstadt/3797-fliesen-theo-galuschka` wegen eines Portal-Fehlers zu einem fremden Bauunternehmen („Gashi Bauerhaltung GmbH & Co. KG“). Potenzielle Kunden für Komplettbäder in Ingolstadt springen dadurch direkt ab. Der schlüsselfertige Entwurf `fliesen-theo-galuschka.vercel.app` behebt dieses gravierende Problem sofort.
+
+### 2. Saxer-Telefonskript
+- **Entscheider:** Theo Galuschka (Handwerksmeister)
+- **Telefon:** 0841 57321 / Mobil & WhatsApp: 01590 1772970
+- **Opener:** „Guten Tag Herr Galuschka, Raphael Neumeier hier aus Ingolstadt. Ich rufe ganz kurz mit einer dringenden Sache an: Sie haben auf Google makellose 5,0 Sterne – aber wenn Kunden auf Ihre Website klicken, landen sie auf einem Verzeichnis, das ein völlig fremdes Bauunternehmen anzeigt. Wussten Sie, dass Ihr Google-Eintrag aktuell Kunden zur Konkurrenz schickt?“
+- **Pitch:** „Genau deshalb habe ich für Fliesen Theo Galuschka eine moderne Meister-Website inklusive Bad-Sanierungs-Inspektor programmiert. Darf ich Ihnen den Live-Link kurz per WhatsApp auf Ihre Handynummer 01590 1772970 senden?“
+- **Einwandbehandlung:** Volle Auftragsbücher („Filtert Billiganfragen vorab heraus und sichert die margenstarken Traumbäder“), Mundpropaganda („Bauherren googeln Empfehlungen vor dem Anruf – Vertrauensanker“), Mail anfordern („Geht auf der Baustelle unter – 30-Sekunden WhatsApp-Check“).
+
+### 3. Loom-Video Skript (3 Minuten)
+- **0:00 - 0:35:** Begrüßung, 5.0-Sterne Lob & Aufdecken des Google-Maps Fehlers.
+- **0:35 - 1:15:** Hero-Bereich mit Meister-Präzision & Live-Kapazitätsstatus.
+- **1:15 - 2:10:** Der Sanierungs-Inspektor (Vorher/Nachher, Materialauswahl, WhatsApp-1-Klick-Anfrage).
+- **2:10 - 2:40:** 100% Rechtssicherheit (§ 5 DDG, DSGVO ohne Tracking-Cookies) & Ladezeit.
+- **2:40 - 3:00:** Call to Action für 5-Minuten-Telefonat.
+
+### 4. Multi-Touch Outreach-Sequenz
+- **Tag 1:** Telefonanruf + Sofortige WhatsApp mit Vercel-Link.
+- **Tag 3:** Loom-Video Follow-Up via WhatsApp.
+- **Tag 7:** Fachkräfte- & Lehrlings-Impuls.
+- **Tag 14:** Höfliche Break-Up-Nachricht (Demo-Server Archivierungsvorwarnung).
+
