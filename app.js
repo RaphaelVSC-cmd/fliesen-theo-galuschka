@@ -604,6 +604,45 @@ Können wir einen unverbindlichen Vor-Ort-Besichtigungstermin vereinbaren?`;
   updateCalculation();
 }
 
+/* === FAQ AKKORDEON (Interaktives Auf- & Zusliden der Antworten) === */
+function initFaq() {
+  const triggers = document.querySelectorAll('.faq-trigger');
+  if (!triggers.length) return;
+
+  triggers.forEach(trigger => {
+    trigger.addEventListener('click', () => {
+      const isExpanded = trigger.getAttribute('aria-expanded') === 'true';
+      const controlsId = trigger.getAttribute('aria-controls');
+      const targetDd = document.getElementById(controlsId);
+      if (!targetDd) return;
+
+      /* Alle anderen Fragen schließen für aufgeräumte UX */
+      triggers.forEach(otherTrigger => {
+        if (otherTrigger !== trigger) {
+          otherTrigger.setAttribute('aria-expanded', 'false');
+          const otherId = otherTrigger.getAttribute('aria-controls');
+          const otherDd = document.getElementById(otherId);
+          if (otherDd) {
+            otherDd.classList.remove('open');
+            otherDd.style.maxHeight = null;
+          }
+        }
+      });
+
+      /* Aktuelle Frage toggeln */
+      if (isExpanded) {
+        trigger.setAttribute('aria-expanded', 'false');
+        targetDd.classList.remove('open');
+        targetDd.style.maxHeight = null;
+      } else {
+        trigger.setAttribute('aria-expanded', 'true');
+        targetDd.classList.add('open');
+        targetDd.style.maxHeight = (targetDd.scrollHeight + 32) + 'px';
+      }
+    });
+  });
+}
+
 /* === INITIALIZATION (Mit Reduced-Motion Guard) === */
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -617,6 +656,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initContactForm();
   initSignatureFeature();
   initBeforeAfter();
+  initFaq();
 
   /* Motion Primitives (nur wenn Bewegung nicht reduziert) */
   if (!prefersReducedMotion) {
@@ -629,3 +669,4 @@ document.addEventListener('DOMContentLoaded', () => {
     initNavHover();
   }
 });
+
