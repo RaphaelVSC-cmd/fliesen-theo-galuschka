@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fliesen-theo-galuschka.vercel.app/sitemap.xml

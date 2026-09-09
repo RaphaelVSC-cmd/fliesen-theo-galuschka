@@ -1,0 +1,16 @@
+{
+  "name": "Fliesen Theo Galuschka",
+  "short_name": "Galuschka",
+  "description": "Fliesenfachbetrieb Theo Galuschka in Ingolstadt – Meisterhafte Komplettbäder, Terrassen und Großformatverlegung.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F6F2",
+  "theme_color": "#B85028",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
